@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.drkunibar.netbeans</groupId>
     <artifactId>nb-quickopener</artifactId>
-    <version>1.3.0</version>
+    <version>1.4-SNAPSHOT</version>
     <packaging>nbm</packaging>
     <name>QuickOpener</name>
     <description><![CDATA[
