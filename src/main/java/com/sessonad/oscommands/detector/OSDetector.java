@@ -29,6 +29,8 @@ public class OSDetector {
                 return OperatingSystem.LINUX_XFCE;
             }else if (checkProcessNames("lxsession")) {
                 return OperatingSystem.LINUX_LXDE;
+            }else if (checkProcessNames("cinnamon-session")) {
+                return OperatingSystem.LINUX_CINNAMON;
             }else{
                 return OperatingSystem.LINUX_UNKNOWN;
             }

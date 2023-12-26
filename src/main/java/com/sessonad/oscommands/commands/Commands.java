@@ -3,6 +3,7 @@ package com.sessonad.oscommands.commands;
 
 import com.sessonad.oscommands.detector.OSDetector;
 import com.sessonad.oscommands.detector.OperatingSystem;
+import static com.sessonad.oscommands.detector.OperatingSystem.LINUX_XFCE;
 import java.awt.Desktop;
 import java.io.File;
 import java.io.IOException;
@@ -47,6 +48,9 @@ public abstract class Commands {
                 break;
             case LINUX_XFCE:
                 platform = new LinuxXfceCommands();
+                break;
+            case LINUX_CINNAMON:
+                platform = new LinuxCinnamonCommands();
                 break;
             case LINUX_UNKNOWN:
                 platform = new LinuxUnknownCommands();
