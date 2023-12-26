@@ -1,14 +1,7 @@
 <hr>
-<h1 style="color: #FF0000">This project is DEAD and NOT SUPPORTED anymore by its former developer.</h1>
-Please fork it and create a new plugin from it. I can guide you through the process (as time allows), but I won't write code, accept pull-requests nor put updates to the NetBeans plugins center.
+<h2>This is a fork the https://github.com/dzsessona/QuickOpener-NetBeans so we can publish it to the Netbeans Plugin Portal.</h2>
+
 <hr>
-
-QuickOpener-NetBeans
-====================
-
-* [Wiki](https://github.com/dzsessona/QuickOpener-NetBeans/wiki/Home)<br/>
-* [Download from plugin center, < NB8.1 ](http://plugins.netbeans.org/plugin/43217/quickopener)
-* [Download from plugin center, &ge; NB8.1](http://plugins.netbeans.org/plugin/62668/?show=true)
 
 Sometimes while programming in NetBeans you want to explore a particular file that you are editing on the file system browser, or maybe launch a command in a terminal to do something with it.
 
@@ -66,9 +59,4 @@ _Always enabled:_
 <li>[<a href="https://github.com/dzsessona/QuickOpener-NetBeans/issues/61">Task 61</a>]: Convert to maven-project for better maintainence</li>
 <li>[<a href="https://github.com/dzsessona/QuickOpener-NetBeans/issues/51">Bugfix 51</a>]: [Windows] Open in FileManager should select the file/dir</li>
 <li>[<a href="https://github.com/dzsessona/QuickOpener-NetBeans/issues/49">Bugfix 49</a>]: [Linux] Crash in options when running "LinuxUnknown" and KDE not detected</li>
-
  </ul>
-
-<p><a href="https://github.com/kinkadzs/QuickOpener-NetBeans/wiki/Home">The project is hosted on github, click here to report a bug or make a suggestion...
-    </a>Enjoy, Diego+Benno.
-    </p>
