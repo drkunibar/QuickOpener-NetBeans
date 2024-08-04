@@ -1,8 +1,7 @@
--------------------------------------------------------------------------------------------------------------
+___
 
 ## This is a fork the https://github.com/dzsessona/QuickOpener-NetBeans so we can publish it to the Netbeans Plugin Portal.
-
--------------------------------------------------------------------------------------------------------------
+___
 
 Sometimes while programming in NetBeans you want to explore a particular file that you are editing on the file system browser, or maybe launch a command in a terminal to do something with it.
 
@@ -27,37 +26,32 @@ _Always enabled:_
 * **Open a shell on any location** (favorites, customizable on preferences)
 ![icon](https://raw.githubusercontent.com/drkunibar/QuickOpener-NetBeans/master/qoscreenshots/shot11.png)&nbsp;
 
-<h2>Updates</h2>
+## Updates
 
-<h3>1.2.0:</h3>
-<ul>
-<li>[<a href="https://github.com/dzsessona/QuickOpener-NetBeans/pull/86">Feature 86</a>]: Support Mate-terminal and Caja-/Space-file manager via configurator (Ubuntu Mate) (PR by javatlacati)</li>
-<li>[<a href="https://github.com/dzsessona/QuickOpener-NetBeans/pull/84">Task 84</a>]: Fix line-endings and update to JDK7 (PR by javatlacati)</li>
-</ul>
+### 1.2.0:
 
-<h3>1.1.0:</h3>
-<ul>
-<li>[<a href="https://github.com/dzsessona/QuickOpener-NetBeans/issues/66">Feature 66</a>]: Refactor run custom dialog: simplify, add keyboard-only support</li>
-<li>[<a href="https://github.com/dzsessona/QuickOpener-NetBeans/issues/33">Feature 33</a>]: Support for project folder replacement variable ${projectFolder}/${mainProjectFolder}</li>
-<li>[<a href="https://github.com/dzsessona/QuickOpener-NetBeans/issues/67">Feature 67</a>]: More patterns - see <a href="https://github.com/dzsessona/QuickOpener-NetBeans/issues/67">details</a></li>
-<li>[<a href="https://github.com/dzsessona/QuickOpener-NetBeans/issues/30">Feature 30</a>]: Support favorites nodes</li>
-<li>[<a href="https://github.com/dzsessona/QuickOpener-NetBeans/issues/64">Feature 64</a>]: Support lookups with java.io.File</li>
-<li>[<a href="https://github.com/dzsessona/QuickOpener-NetBeans/issues/65">Bugfix 65</a>]: Missing mnemonics in dialogs and options</li>
-<li>[<a href="https://github.com/dzsessona/QuickOpener-NetBeans/issues/69">Bugfix 69</a>]: "Launch custom command..." should be available if there is no selected file</li>
-<li>[<a href="https://github.com/dzsessona/QuickOpener-NetBeans/issues/77">Bugfix 77</a>]: Fix GUI detection for Ubuntu 16.04</li>
-</ul>
+* \[[Feature 86](https://github.com/dzsessona/QuickOpener-NetBeans/pull/86)\]: Support Mate-terminal and Caja-/Space-file manager via configurator (Ubuntu Mate) (PR by javatlacati)
+* \[[Task 84](https://github.com/dzsessona/QuickOpener-NetBeans/pull/84)\]: Fix line-endings and update to JDK7 (PR by javatlacati)
 
-<h3>1.0.4:</h3>
-<ul>
-<li>[<a href="https://github.com/dzsessona/QuickOpener-NetBeans/issues/63">Bugfix 63</a>]: File manager opens twice (KDE)</li>
-<li>[<a href="https://github.com/dzsessona/QuickOpener-NetBeans/issues/62">Bugfix 62</a>]: java.lang.NoSuchMethodError: java.lang.Process.waitFor running NB @ JDK7</li>
- </ul>
 
-<h3>1.0.3:</h3>
-<ul>
-<li>[<a href="https://github.com/dzsessona/QuickOpener-NetBeans/issues/56">Task 56</a>]: Provide a 8.1 version for the plugin center</li>
-<li>[<a href="https://github.com/dzsessona/QuickOpener-NetBeans/issues/60">Task 60</a>]: Include new version of oscommands</li>
-<li>[<a href="https://github.com/dzsessona/QuickOpener-NetBeans/issues/61">Task 61</a>]: Convert to maven-project for better maintainence</li>
-<li>[<a href="https://github.com/dzsessona/QuickOpener-NetBeans/issues/51">Bugfix 51</a>]: [Windows] Open in FileManager should select the file/dir</li>
-<li>[<a href="https://github.com/dzsessona/QuickOpener-NetBeans/issues/49">Bugfix 49</a>]: [Linux] Crash in options when running "LinuxUnknown" and KDE not detected</li>
- </ul>
+### 1.1.0:
+* [[Feature 66](https://github.com/dzsessona/QuickOpener-NetBeans/issues/66)]: Refactor run custom dialog: simplify, add keyboard-only support
+* [[Feature 33](https://github.com/dzsessona/QuickOpener-NetBeans/issues/33)]: Support for project folder replacement variable ${projectFolder}/${mainProjectFolder}
+* [[Feature 67](https://github.com/dzsessona/QuickOpener-NetBeans/issues/67)]: More patterns - see <a href="https://github.com/dzsessona/QuickOpener-NetBeans/issues/67">details</a>
+* [[Feature 30](https://github.com/dzsessona/QuickOpener-NetBeans/issues/30)]: Support favorites nodes
+* [[Feature 64](https://github.com/dzsessona/QuickOpener-NetBeans/issues/64)]: Support lookups with java.io.File
+* [[Bugfix 65](https://github.com/dzsessona/QuickOpener-NetBeans/issues/65)]: Missing mnemonics in dialogs and options
+* [[Bugfix 69](https://github.com/dzsessona/QuickOpener-NetBeans/issues/69)]: "Launch custom command..." should be available if there is no selected file
+* [[Bugfix 77](https://github.com/dzsessona/QuickOpener-NetBeans/issues/77)]: Fix GUI detection for Ubuntu 16.04
+
+### 1.0.4:
+* [[Bugfix 63](https://github.com/dzsessona/QuickOpener-NetBeans/issues/63)]: File manager opens twice (KDE)
+* [[Bugfix 62](https://github.com/dzsessona/QuickOpener-NetBeans/issues/62)]: java.lang.NoSuchMethodError: java.lang.Process.waitFor running NB @ JDK7
+ 
+### 1.0.3:
+* [[Task 56](https://github.com/dzsessona/QuickOpener-NetBeans/issues/56)]: Provide a 8.1 version for the plugin center
+* [[Task 60](https://github.com/dzsessona/QuickOpener-NetBeans/issues/60)]: Include new version of oscommands
+* [[Task 61](https://github.com/dzsessona/QuickOpener-NetBeans/issues/61)]: Convert to maven-project for better maintainence
+* [[Bugfix 51](https://github.com/dzsessona/QuickOpener-NetBeans/issues/51)]: [Windows] Open in FileManager should select the file/dir
+* [[Bugfix 49](https://github.com/dzsessona/QuickOpener-NetBeans/issues/49)]: [Linux] Crash in options when running "LinuxUnknown" and KDE not detected
+ 
