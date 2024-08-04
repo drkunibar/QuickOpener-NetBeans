@@ -1,6 +1,6 @@
 ___
 
-## This is a fork the https://github.com/dzsessona/QuickOpener-NetBeans so we can publish it to the Netbeans Plugin Portal.
+## This is a fork of <https://github.com/dzsessona/QuickOpener-NetBeans> so we can publish it to the [Netbeans Plugin Portal](https://plugins.netbeans.apache.org/).
 ___
 
 Sometimes while programming in NetBeans you want to explore a particular file that you are editing on the file system browser, or maybe launch a command in a terminal to do something with it.
