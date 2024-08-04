@@ -22,11 +22,21 @@ _Always enabled:_
 
 * **Launch a shell command** (with parameters, customizable on preferences) ![icon](https://raw.githubusercontent.com/drkunibar/QuickOpener-NetBeans/master/qoscreenshots/launch.png)&nbsp;
 * **FileSystem browser on any location** (favorites, customizable on preferences)
-![icon](https://raw.githubusercontent.com/drkunibar/QuickOpener-NetBeans/master/qoscreenshots/shot10.png)&nbsp;
+![icon](https://raw.githubusercontent.com/drkunibar/QuickOpener-NetBeans/master/qoscreenshots/shot10.png)
 * **Open a shell on any location** (favorites, customizable on preferences)
-![icon](https://raw.githubusercontent.com/drkunibar/QuickOpener-NetBeans/master/qoscreenshots/shot11.png)&nbsp;
+![icon](https://raw.githubusercontent.com/drkunibar/QuickOpener-NetBeans/master/qoscreenshots/shot11.png)
 
 ## Updates
+
+### 1.3.1
+
+* [NONE]: Use Java 17
+* [NONE]: Restruncture Build (Parent-POM, Signed Module)
+
+### 1.3.0
+* \[[Task 94](https://github.com/dzsessona/QuickOpener-NetBeans/issues/94)\]: Publish to new plugins
+ central
+* [NONE]: New `groupId` and `artifactId`
 
 ### 1.2.0:
 
